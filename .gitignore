@@ -1,0 +1,12 @@
+.idea/
+
+*.iml
+
+.venv/
+
+*.pyc
+*.pyd
+*.pyo
+*.egg
+
+_pycache_/
