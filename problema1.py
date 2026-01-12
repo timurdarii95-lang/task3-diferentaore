@@ -1,3 +1,4 @@
+from calendar import different_locale
 from datetime import datetime
 from zoneinfo  import ZoneInfo
 
@@ -11,4 +12,5 @@ t2 = datetime.strptime(end_time, '%Y-%m-%d, %H-%M-%S')
 
 dif = t2 - t1
 
-print(dif)
+ore = dif.total_seconds() / 3600
+print(f'Diferenta dintre cele doua date este de {ore}ore.')
